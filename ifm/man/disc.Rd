@@ -2,13 +2,13 @@
 \alias{disc}
 % - Also NEED an '\alias' for EACH other topic documented here.
 \title{
-  Functio to create a vector with discount rate to be applied to each of the time periods.
+  Functio to create a vector with discount rate to be applied to each of the time periods
 }
 \description{
 
 }
 \usage{
-disc(r, n, bop = FALSE)
+    disc(r, n, bop = FALSE)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -25,14 +25,14 @@ disc(r, n, bop = FALSE)
 \details{
   Calculate a future value considering tax and period
 }
-\value{
-}
-\references{
-}
-\author{
-}
-\note{
-}
+%\value{
+%}
+%\references{
+%}
+%\author{
+%}
+%\note{
+%}
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
@@ -40,7 +40,7 @@ disc(r, n, bop = FALSE)
 }
 \examples{
   ## tax.rate = 1,24\%, periods = 12, bop = TRUE
-  d <- disc(0.0124, 12, TRUE)
+  ## disc(0.0124, 12, TRUE)
 }
 
 % Add one or more standard keywords, see file 'KEYWORDS' in the
